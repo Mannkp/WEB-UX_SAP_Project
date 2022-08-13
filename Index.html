@@ -13,12 +13,16 @@
         font-family: 'Open Sans', sans-serif;
         font-family: 'Spline Sans Mono', monospace;
     }
+    .body{
+        border:2px solid black;
+        margin:10px 140px;
+        height: auto;
+        width:auto;
+    }
     nav{
         background-color: black;
-        font-size : 24px;
-        color:white;
-        border:1px solid black;
-        border-radius:10pxl;
+        font-size : 20px;
+        color:white;    
         height: 60px;
         margin :auto;  
         align-items: center;
@@ -32,14 +36,42 @@
         justify-content:space-between;
     }
     li{
-        border : 1px solid white;
-        border-radius: 10px;
         list-style:none;
-        margin: 10px 10px;
+        margin: 10px 20px;
     }
     #your-img{
         -webkit-filter: invert(100%); 
         filter: invert(100%);
+        height : 24px;
+        width:24px;
+    }
+    #myac{
+        border : 0px;
+    }
+    a:link{
+        color:grey;
+        text-decoration: none;
+    }
+    a:visited{
+        color:grey;
+        text-decoration:none;
+    }
+    a:hover{
+        color:white;
+        text-decoration: none;
+    }
+    h1{
+        margin:20px;
+    }
+    p{
+        margin:10px;
+    }
+    .p{
+        list-style: disc;
+    }
+    .intro_para{
+        font-size: 20px;
+        margin:50px 90px;
     }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,18 +82,38 @@
 <body>
     <nav>
         <ul class = "first-ul">
-            <li>#SAP logo</li>
-            <li>learning link</li>
+            <li><a href = "#"><img src="swastik.png" id="your-img"></img></a></li>
+            <li><a href = "#">learning link</a></li>
         </ul>
         <ul class = "second-ul">
-            <li>Learn</li>
-            <li>Get Certified</li>
-            <li>Explore SAP</li>
-            <!-- <li><img src="myaccount.png" id="your-img"></img></li> -->
+            <li><a href = "#">Learn</a></li>
+            <li><a href = "#">Get Certified</a></li>
+            <li><a href = "#">Explore SAP</a></li>
+            <li id="myac"><a href = "#"><img src="myaccount.png" id="your-img"></img></a></li>
         </ul>
     </nav>
+<div class="body">
+    <h1>
+        Introducing HyperText Markup Language (HTML)
+    </h1>
+    
+    <div class="intro_para">
     <p>
-        This is my first HTML page from SAP "Getting started with UX" course.
+        The following is a set of some of the most prominent features introduced in HTML5:
     </p>
+    <p>
+    <ol>
+        <li class="p"><strong>New Semantic Elements:</strong> These are like &ltheader&gt, &ltfooter&gt, and &ltsection&gt.</li>
+        <li class="p"><strong>Forms 2.0:</strong> These are improvements to HTML web forms, where new attributes have been introduced for the &ltinput&gt tag.</li>
+        <li class="p"><strong>Persistent Local Storage:</strong> To achieve without resorting to third-party plugins.</li>
+        <li class="p"><strong>WebSocket:</strong> A next-generation bidirectional communication technology for web applications.</li>
+        <li class="p"><strong>Audio and Video:</strong> You can embed audio or video on your webpages without resorting to third-party plugins.</li>
+        <li class="p"><strong>Geolocation:</strong> Now visitors can choose to share their physical location with your web application.</li>
+        <li class="p"><strong>Drag and drop:</strong> Drag and drop the items from one location to another location on the same webpage.</li>
+    </ol>
+    </p>
+    </div>
+
+</div>
 </body>
 </html>
