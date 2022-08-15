@@ -8,17 +8,24 @@ body{
     background-color: rgb(234, 232, 232);
 }
 .body{
+    /* margin-top: 30px; */
     border-radius: 20px;
     background-color: white;
-    margin:10px 140px;
+    margin-top: 100px;
+    margin:110px 140px;
     height: auto;
     width:auto;
+    color:grey;
 }
 nav{
+    top:0px;
+    overflow: hidden;
+    position: fixed;
     background-color: black;
     font-size : 20px;
     color:white;    
     height: 60px;
+    width: 100%;
     margin :auto;  
     align-items: center;
     display : flex;
@@ -57,6 +64,9 @@ a:hover{
 }
 h1{
     margin:20px;
+    color:black;
+}h3{
+    color:black;
 }
 p{
     margin:40px;
@@ -65,9 +75,24 @@ p{
     list-style: disc;
 }
 .intro_para{
-    font-size: 20px;
+    font-size: 18px;
     margin:50px 90px;
 }
 h3{
     margin-top:50px;
+}
+.btm{
+    position: fixed;
+    overflow: hidden;
+    bottom : -652px;
+    background-color: black;
+    font-size : 20px;
+    color:white;    
+    height: 60px;
+    width: 100%;
+    margin :auto;  
+    align-items: center;
+    display : flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
