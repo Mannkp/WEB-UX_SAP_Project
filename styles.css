@@ -84,14 +84,19 @@ h3{
 .btm{
     position: fixed;
     overflow: hidden;
-    bottom : -652px;
+    bottom : -672px;
     background-color: black;
     font-size : 20px;
     color:white;    
-    height: 60px;
+    height: 40px;
     width: 100%;
     margin :auto;  
     align-items: center;
+    display : flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.btm_first{
     display : flex;
     flex-direction: row;
     justify-content:space-between;
