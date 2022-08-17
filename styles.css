@@ -101,3 +101,7 @@ h3{
     flex-direction: row;
     justify-content:space-between;
 }
+#video
+{
+    border-radius: 20px;
+}
