@@ -5,7 +5,7 @@
     font-family: 'Spline Sans Mono', monospace;
 }
 body{
-    background-color: rgb(234, 232, 232);
+    background-color: rgb(232, 232, 232);
 }
 .body{
     /* margin-top: 30px; */
@@ -73,6 +73,7 @@ p{
 }
 .p{
     list-style: disc;
+    margin-left: 90px;
 }
 .intro_para{
     font-size: 18px;
