@@ -3,3 +3,7 @@
 
 Pages:
 https://mannkp.github.io/WEB-UX_SAP_Project/
+
+The font used in this project are:
+https://fonts.google.com/specimen/Montserrat 
+and I especially liked them a lotttt!!
