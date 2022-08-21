@@ -49,6 +49,7 @@ hr{
 li{
     list-style:none;
     margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 #your-img{
     -webkit-filter: invert(100%); 
@@ -78,9 +79,11 @@ h1{
     color:black;
 }
 p{
+    font-family: 'Montserrat', sans-serif;
     margin:40px;
 }
 .p{
+    font-family: 'Montserrat', sans-serif;
     list-style: disc;
     margin-left: 90px;
 }
