@@ -38,14 +38,13 @@ nav{
     flex-direction: row;
     justify-content:space-between;
 }
-hr{
-    overflow: hidden;
+#top{
     position:fixed;
     top: 60px;
+    border:0px;
     background-color: orange;
     height: 5px;
-    width: auto;
-    margin-bottom:60px;
+    width: 100%;
 }
 li{
     list-style:none;
@@ -130,4 +129,8 @@ h3{
     background-color: rgb(228, 228, 229);
     border-radius:20px;
     padding:20px;
+}
+#textstyling{
+    height:350px;
+    weidht:350px;
 }
