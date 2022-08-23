@@ -8,6 +8,7 @@ body{
     background-color: rgb(232, 232, 232);
 }
 .body{
+    padding:20px;
     /* margin-top: 30px; */
     border-radius: 20px;
     background-color: white;
@@ -80,7 +81,8 @@ h1{
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    margin:40px;
+    padding:10px;
+    /* margin:40px; */
 }
 .p{
     font-family: 'Montserrat', sans-serif;
@@ -123,4 +125,9 @@ h3{
     height: 70px;
     width: 1000px;
     margin: auto;
+}
+.note{
+    background-color: rgb(228, 228, 229);
+    border-radius:20px;
+    padding:20px;
 }
