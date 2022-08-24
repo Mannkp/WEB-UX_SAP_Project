@@ -7,17 +7,6 @@
 body{
     background-color: rgb(232, 232, 232);
 }
-.body{
-    padding:20px;
-    /* margin-top: 30px; */
-    border-radius: 20px;
-    background-color: white;
-    margin-top: 100px;
-    margin:110px 140px;
-    height: auto;
-    width:auto;
-    color:grey;
-}
 nav{
     top:0px;
     overflow: hidden;
@@ -38,6 +27,17 @@ nav{
     flex-direction: row;
     justify-content:space-between;
 }
+.body{
+    /* min-height: calc(100% - 100px); */
+    padding:40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 100px;
+    margin:110px 140px;
+    height: auto;
+    width:auto;
+    color:grey;
+}
 #top{
     position:fixed;
     top: 60px;
@@ -57,9 +57,6 @@ li{
     height : 24px;
     width:24px;
 }
-#myac{
-    border : 0px;
-}
 a:link{
     color:grey;
     text-decoration: none;
@@ -76,9 +73,11 @@ h1{
     margin:20px;
     color:black;
 }h3{
+    margin-left: 60px;
     color:black;
 }
 p{
+    margin-left: 80px;
     font-family: 'Montserrat', sans-serif;
     padding:10px;
     /* margin:40px; */
@@ -86,25 +85,21 @@ p{
 .p{
     font-family: 'Montserrat', sans-serif;
     list-style: disc;
-    margin-left: 90px;
-}
-.intro_para{
-    font-size: 18px;
-    margin:50px 90px;
+    margin-left: 120px;
 }
 h3{
     margin-top:50px;
 }
 .btm{
     position: fixed;
-    overflow: hidden;
-    bottom : -672px;
+    left: 0px;
+    bottom : 0px;
     background-color: black;
     font-size : 20px;
     color:white;    
     height: 40px;
     width: 100%;
-    margin :auto;  
+     
     align-items: center;
     display : flex;
     flex-direction: row;
