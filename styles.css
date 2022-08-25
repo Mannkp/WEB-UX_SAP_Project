@@ -90,6 +90,9 @@ p{
 h3{
     margin-top:50px;
 }
+.divider{
+    margin:40px;   
+}
 .btm{
     position: fixed;
     left: 0px;
@@ -124,6 +127,9 @@ h3{
     background-color: rgb(228, 228, 229);
     border-radius:20px;
     padding:20px;
+}
+.note p {
+    margin:5px 10px;
 }
 #textstyling{
     height:400px;
