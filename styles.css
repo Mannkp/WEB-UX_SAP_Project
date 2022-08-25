@@ -72,7 +72,8 @@ a:hover{
 h1{
     margin:20px;
     color:black;
-}h3{
+}
+h3{
     margin-left: 60px;
     color:black;
 }
@@ -134,4 +135,10 @@ h3{
 #textstyling{
     height:400px;
     width:600px;
+    margin: auto;
+}
+#fleximg{
+    height: 200px;
+    width: 700px;
+    margin: auto;
 }
