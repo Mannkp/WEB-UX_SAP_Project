@@ -30,9 +30,9 @@
         <h1>
             Introducing HyperText Markup Language (HTML)
         </h1>
-        <h3>
+        <h2>
             Overview
-        </h3>
+        </h2>
         <p><b>HTML</b> (HyperText Markup Language) was developed in 1990 by web founder, Tim Berners-Lee. It is a markup language. This markup language is used to describe the logical components of a text-oriented document. In web design, attempts are made to organise page structuring and text structuring according to semantic aspects. HTML enables typical elements of a text-oriented document - such as headings, text paragraphs, lists, tables, or graphic references - to be correctly delineated.</p>
 
         <p>At the beginning of its development, only a few HTML elements were available to the creators of web pages, which was also reflected in a corresponding simplicity of web pages. Early approaches included the insertion of images, which were also used in the form of graphic texts for headings.</p>
@@ -40,9 +40,9 @@
         <p>In recent years, internet consumption has shifted away from desktop computers to mobile devices, which can be used while travelling as well as sitting on the couch at home.</p>
             
         <p>HTML5 is the latest and most enhanced version of HTML. Technically, HTML is not a programming language, but rather a markup language. In this course, we will discuss the features of HTML5 and look at how to use it in practice. HTML5 introduces a number of new elements and attributes that can help you to built modern, accessible websites.</p>
-        <h3>
+        <h2>
             HTML
-        </h3>
+        </h2>
         <p>
             The following is a set of some of the most prominent features introduced in HTML5:
         </p>
@@ -60,7 +60,7 @@
         <p>A reference video tutorial for HTML is linked below:</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
 
-        <h3>HTML Events</h3>
+        <h2>HTML Events</h2>
         <p>
             An HTML event can be something that the browser does, or something that a user performs.
             
@@ -75,7 +75,7 @@
             </ol>
         </p>
             
-            <h3>Browser APIs</h3>
+            <h2>Browser APIs</h2>
             <p>
                 Browser APIs are built into your web browser, and are able to expose data from the surrounding computer environment, or they can perform useful complex tasks.
             </p>
@@ -103,7 +103,7 @@
                 <h1>
                     Cascading Style Sheets (CSS)
                 </h1>
-                <h3>Units</h3>
+                <h2>Units</h2>
                 <p>HTML is a language that is displayed on many different devices, from smartphones to tables or notebooks and ultra-wide monitors. This means that not every font or element size can be specified by an absolute unit such as cm, mm, in (inches), or px (pixel). As well as absolute units, CSS also has relative units as follows:</p>
                 <ol>
                     <li class="p">em
@@ -146,15 +146,15 @@
                     Margin and Padding are defined in the box model, which was explained in the HTML chapter.Margin and padding can be set both implicitly and explicitly on the element pages.
                 </p>
             
-            <h3>Text Styling</h3>
+            <h2>Text Styling</h2>
             <p>CSS provides a variety of ways to customize the appearance of text, Simple adjustments like changing the text size or adjusting the font work with the CSS instructions font-size and font-family.</p>
             <p>There are also many other options to customize text appearance, including the following:</p>
             <img src="Text styling.png" id="textstyling"></img>
 
-            <h3>Layouts</h3>
+            <h2>Layouts</h2>
             <p>Through the box model and the standard flow layout of HTML, as well as margin and padding, you already have a number of ways to design a web page. However, this is not always enough to make the structure and appearance of the web site exactly as you want it.</p>
 
-            <h3>Flex Display</h3>
+            <h2>Flex Display</h2>
             <p>FlexBox is based on a container (flex container), in which several elements (flex items) are placed. Certain properties, such as alignment, are inherited by the flex items; the items are the actual flex boxes, which contain their flexibility by being inside the container.</p>
             <p>The two axes each have one direction. Usually, the main axis runs from left to right, the cross axis from top to bottom. FlexBox is described as a one-dimensional system. Elements can be arranged either in rows or in columns. This arrangement can be specified in several ways. Possible layouts include:</p>
             <p><code>justify-content</code>(main-axis) : <code>space-between</code>, <code>space-around</code>, or <code>space-evenly</code>.</p>
@@ -165,12 +165,30 @@
             
             <hr class="divider">
             <h1>JavaScript(JS)</h1>
-            <h3>Introduction</h3>
+            <h2>Introduction</h2>
             <p>JavaScript is a scripting language that is usually used in websites and is then executed by the visitor's browser. Originally, in 1995, JavaScript was still called LiveScript. It was developed by Netscape.</p>
 
             <p>JavaScript ensures that web pages can be built dynamically and adapted to the user. Complex control queries can be programmed in JavaScript and linked to backend services to check the entries of the visitors. Extensive browser games are written in JavaScript.</p>
                 
             <p>JavaScript is a cross-platform, object-oriented scripting language. It is a compact and resource-saving language. Within a host environment, JavaScript can be linked to the objects in its environment to control them programmatically.</p>
+
+            <h2>Variables</h2>
+            <h3 class="sub-heading">characters</h3>
+            <p>Variables are used to store values. In the process, a variable is given a name, called an identifier or identifier, which follows certain rules.</p>
+
+            <p>A JavaScript identifier must begin with a letter. There is a best practice for naming functions and variables, which introduced the underscore (_) for private variables and methods, as the concept of visibility of methods was never implemented. The following characters can also be numbers. Since JavaScript is case-sensitive thus "B" represents a different letter than "b".</p>
+                
+            <p>Most of the ISO 8859-1 and Unicode characters can be used, such as ü or å, but Unicode escape sequences can also be used.</p>
+                
+            <p>For using Unicode characters, the html site needs to have the charset defined as an meta tag.</p>
+
+            <p>There are three ways for declaring an variable(identifier):</p>
+            <ol>
+                <li class="p"><strong>let</strong>:  Using <em>let</em> allows you to declare variables that are limited to the scope of a block statement, or the expression on which it is used, unlike the <em>var</em> keyword, which declares a variable globally, or locally to an entire function regardless of block scope. The other difference between <em>var</em> and <em>let</em> is that the latter is initialized to a value only when a parser evaluates it.</li>
+                
+                <li class="p"><strong>const</strong>:  One can create a read-only named constant with the keyword <em>const</em>. The syntax for a constant identifier is the same as for variable identifiers: it must begin with a letter, can contain alphabetic characters, numeric characters and underscores. The value of a constant cannot be changed at runtime by assignments or new declarations. Therefore, constants must always be initialized. You cannot declare a constant with the same name as a function or variable in the same scope.</li>
+            </ol>
+
     </div>
 
 <footer class="btm">

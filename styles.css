@@ -73,23 +73,30 @@ h1{
     margin:20px;
     color:black;
 }
-h3{
+h2{
     margin-left: 60px;
     color:black;
+    margin-top:50px;
+    font-weight: bolder;
+}
+.sub-heading{
+    font-weight: lighter;
+    margin-left: 60px;
+    color:black;
+    margin-top:20px;
 }
 p{
     margin-left: 80px;
     font-family: 'Montserrat', sans-serif;
     padding:10px;
+    font-size: 20px;
     /* margin:40px; */
 }
 .p{
     font-family: 'Montserrat', sans-serif;
     list-style: disc;
+    font-size: 20px;
     margin-left: 120px;
-}
-h3{
-    margin-top:50px;
 }
 .divider{
     margin:40px;   
@@ -103,7 +110,6 @@ h3{
     color:white;    
     height: 40px;
     width: 100%;
-     
     align-items: center;
     display : flex;
     flex-direction: row;
