@@ -235,6 +235,17 @@
         <p>You can find out the length of an array (how many items are in it) in exactly the same way as you find out the length (in characters) of a string — by using the length property.</p>
         <p><code>let fruits = ['Apple' , 'Banana']</code></p>
         <p><code>console.log(fruits.length) // Result is 2</code></p>
+        <p>This is fine if you know the index of an item, but what if you do not? You can find the index of a particular item using the <code>indexOf()</code> method. This takes an item as an argument and returns the index, or -1 if the item was not found in the array.</p>
+        <p>To add one or more items to the end of an array, you can use <code>push()</code>. Note that you need to include one or more items that you want to add to the end of your array.</p>
+        <p><code>let fruits = ['Apple' , 'Banana']</code></p>
+        <p><code>fruits.push('kiwi')</code></p>
+        <p>To remove the last item from the array, use <code>pop()</code>.</p>
+        <p>If you know the index of an item, you can remove it from the array using <code>splice()</code>.</p>
+        <p>Frequently, you will want to access every item in the array. You can do this using the for statement:</p>
+        <p><code>let fruits = ['Apple' , 'Banana']</code></p>
+        <p><code>fruits.forEach(element => console.log(element))</code></p>
+
+
 
     </div>
 
