@@ -139,6 +139,12 @@ p{
 .note p {
     margin:5px 10px;
 }
+#str_op-img{
+    display: block;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
 #dt_img{
     display: block;
     height: 500px;
@@ -162,6 +168,14 @@ p{
     height: 700px;
     width: 900px;
     margin: auto;
+}
+
+code{
+    /* margin: 10px */
+    padding: 3px;
+    border-radius: 8px;
+    background-color: rgb(42, 42, 42);
+    color: white;
 }
 
 /*Media Queries Begins*/
