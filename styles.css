@@ -102,7 +102,7 @@ p{
     margin:40px;   
 }
 .btm{
-    position: fixed;
+    position: relative;
     left: 0px;
     bottom : 0px;
     background-color: black;
@@ -311,6 +311,12 @@ code{
         width: 300px;
         margin: auto;
     }
+    #str_op-img{
+        display: block;
+        height: 200px;
+        width: 300px;
+        margin: auto;
+    }
     #qselecotr_img{
         display: block;
         height: 30px;
@@ -347,7 +353,7 @@ code{
     #compOP_img{
         display: block;
         height: 400px;
-        width: 400px;
+        width: 90%;
         margin: auto;
     }
 }
