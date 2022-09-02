@@ -131,6 +131,18 @@ p{
     width: 1000px;
     margin: auto;
 }
+#for_loop{
+    display: block;
+    height: 150px;
+    width: 500px;
+    margin: auto;
+}
+#while_img{
+    display: block;
+    height: 150px;
+    width: 300px;
+    margin: auto;
+}
 .note{
     background-color: rgb(228, 228, 229);
     border-radius:20px;
