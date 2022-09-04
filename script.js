@@ -27,3 +27,9 @@ while(i<=n){
     console.log('Mann is Learning Java Script : )');
     i++;
 }
+
+//Arrays
+let Array = [1,2,3,4]
+for (let i in Array){
+    console.log(Array[i])
+}
